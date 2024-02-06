@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Проект: Веб-страница о путешествиях</title>
+        <style>
+            body {
+                width: 100%;
+                background-color: #F0F2F5;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                outline: none;
+            }
+
+            .content {
+                width: 350px;
+                text-align: left;
+                font-family: "Segoe UI", Roboto, "San Francisco";
+                margin-left: 20px;
+            }
+
+            p {
+                font-size: 20px;
+                text-align: left;
+            }
+
+            form {
+                background-color: white;
+                width: 320px;
+                padding: 10px 5px 20px 5px;
+                border-radius: 5px;
+                box-shadow: 5px 5px 6px -7px;
+                text-align: center;
+            }
+
+            input[type="text"],
+            input[type="password"]{
+                display: block;
+                background-color: #ffff;
+                margin: 10px auto;
+                border: 1.5px solid rgb(200, 200, 200);
+                width: 200px;
+                padding: 10px 40px;
+                border-radius: 5px;
+                text-align: center;
+                color: black;
+                font-family: 'Segoe UI';
+                font-size: 15px;
+            }
+
+            button {
+                border: none;
+                background-color: #1878F3;
+                color: white;
+                margin: 10px auto;
+                width: 283px;
+                border-radius: 5px;
+                padding: 10px 0;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .f-psw {
+                color: #1878F3;
+                font-family: 'Segoe UI';
+                font-weight: 400;
+                display: block;
+                margin: 10px auto;
+                text-align: left;
+                padding-left: 20px;
+            }
+
+            .line {
+                border-top: 1px solid #222;
+                opacity: 0.2;
+                margin: 10px auto;
+                width: 100%;
+            }
+
+            .bnt2 {
+                width: 180px;
+                font-size: 14px;
+                background-color: #43B82B;
+                text-align: center;
+                margin: 10px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <img class="logo-position" src="https://logos-world.net/wp-content/uploads/2020/05/Facebook-Logo-2019.png" alt="Facebook-Logo photo" width="200">
+            <p>Facebook помогает вам всегда<br>
+                оставаться на связи и общаться со<br>
+                своими знакомыми
+            </p>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Email или номер телефона"> <br>
+            <input type="password" placeholder="Пароль"> <br>
+            <button type="submit">Войти</button> <br>
+            <a href="" class="f-psw">Забыли пароль</a> <br>
+            <div class="line"></div> <br>
+            <button class="bnt2">Создать новый аккаунт</button>
+        </form>
+    </body>
+</html>
